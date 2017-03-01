@@ -32,5 +32,5 @@ def makeRequestsWriteResultsParallel(reqs, threads=10, test=False):
 
 if __name__ == '__main__':
     reqs = map(lambda x: createRequests(x), range(1996, 2018))
-    makeRequestsWriteResultsParallel(reqs, test=True)
+    makeRequestsWriteResultsParallel(reqs,25)
     
