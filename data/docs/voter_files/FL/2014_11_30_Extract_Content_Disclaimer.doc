@@ -1,0 +1,27 @@
+<HTML>
+<HEAD>
+</HEAD>
+<BODY><CENTER>
+<font size="5" face="times new roman">
+This is a 404 error page. The page you requested could not be found. This could be due to the site being updated or for another reason.
+<br><br>If the page you were looking for is an individual detail page, these get updated every month and it might reappear in an hour. 
+
+<br><br>
+</font>
+<!--
+
+
+<BR<BR><FONT FACE="TIMES NEW ROMAN" size="6">That page moved. Search engines have not updated yet.</center>
+<br>If you navigated here from a link on this site: (a) note the person&#146;s Florida voter ID number; (b) go to 
+http://flvoters.com/by_number/ plus the first four digits of the ID number; see a long list of links ... scroll down to find the link that completes for voter ID number and (d) click on the link. The problem here is that the voter&#146;s name is different 
+now and the record has an URL displaying the new name.
+<br><br>If the voter ID number is 123456789 then go to http://flvoters.com/by_number/1234 (the first 4 digits of the voter ID number) and scroll down for
+the link that starts with 56789 (the last 5 digits of the voter ID number.)
+<br><br>To find the page you want, navigate from the home page: <A HREF="http://flvoters.com/">CLICK HERE</a>.</center></font>
+<TD WIDTH="15%"></TD></TR></TABLE>
+-->
+
+
+<meta http-equiv="refresh" content="1;url=http://flvoters.com/">
+
+</BODY>

@@ -1,0 +1,104 @@
+/* *******************************************************************************
+* name:    vr_snapshot_file_layout.txt
+* purpose: Layout for the VR_SNAPSHOT% file.
+* format:  tab delimited column names in first row
+* updated: 09/30/2015
+******************************************************************************* */
+
+
+-- --------------------------------------------------------------------------------
+column				datat type/length
+-- --------------------------------------------------------------------------------
+snapshot_dt			char 10
+county_id			char  3
+county_desc			char 15
+voter_reg_num			char 12
+ncid				char 12
+status_cd			char  1	
+voter_status_desc		char 10
+reason_cd			char  2
+voter_status_reason_desc	char 60
+absent_ind			char  1
+name_prefx_cd			char  4
+last_name			char 25
+first_name			char 20
+midl_name			char 20
+name_sufx_cd			char  4
+house_num			char 10
+half_code			char  1
+street_dir			char  2
+street_name			char 30 
+street_type_cd			char  4 
+street_sufx_cd			char  4
+unit_designator			char  4
+unit_num			char  7
+res_city_desc			char 20
+state_cd			char  2
+zip_code			char  9
+mail_addr1			char 40
+mail_addr2			char 40
+mail_addr3			char 40
+mail_addr4			char 40
+mail_city			char 30
+mail_state			char  2
+mail_zipcode			char  9
+area_cd				char  3
+phone_num			char  7
+race_code			char  3
+race_desc			char 35
+ethnic_code			char  2
+ethnic_desc			char 30
+party_cd			char  3
+party_desc			char 12
+sex_code			char  1
+sex				char  6
+age				char  3
+birth_place			char  2
+registr_dt			char 10
+precinct_abbrv			char  6
+precinct_desc			char 30
+municipality_abbrv		char  4
+municipality_desc		char 30
+ward_abbrv			char  4
+ward_desc			char 30
+cong_dist_abbrv			char  4 
+cong_dist_desc			char 30
+super_court_abbrv		char  4 
+super_court_desc		char 30
+judic_dist_abbrv		char  4 
+judic_dist_desc			char 30
+NC_senate_abbrv			char  4 
+NC_senate_desc			char 30
+NC_house_abbrv			char  4 
+NC_house_desc			char 30
+county_commiss_abbrv		char  4 
+county_commiss_desc		char 30
+township_abbrv			char  6
+township_desc			char 30
+school_dist_abbrv		char  6
+school_dist_desc		char 30
+fire_dist_abbrv			char  4 
+fire_dist_desc			char 30
+water_dist_abbrv		char  4 
+water_dist_desc			char 30
+sewer_dist_abbrv		char  4 
+sewer_dist_desc			char 30
+sanit_dist_abbrv		char  4 
+sanit_dist_desc			char 30
+rescue_dist_abbrv		char  4 
+rescue_dist_desc		char 30
+munic_dist_abbrv		char  4 
+munic_dist_desc			char 30
+dist_1_abbrv			char  4 
+dist_1_desc			char 30
+dist_2_abbrv			char  4 
+dist_2_desc			char 30 
+confidential_ind		char  1
+cancellation_dt			char 10
+vtd_abbrv			char  6
+vtd_desc			char 30
+load_dt				char 10
+age_group			char 35
+-- ---------------------------------------------------------------------------------
+
+
